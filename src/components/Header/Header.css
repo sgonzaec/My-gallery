@@ -1,0 +1,33 @@
+nav {
+  background-color: black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.linkMenu {
+  background: linear-gradient(
+    to right,
+    royalblue,
+    royalblue 50%,
+    white 50%
+  );
+}
+.linkMenu {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+.linkMenu {
+  transition: background-position 275ms ease;
+}
+.linkMenu:hover {
+  background-position: 0 100%;
+}
+.buttonMenu{
+    background-color: white;
+    border-radius: 15px;
+    transition: background-position 275ms ease;
+}
+.buttonMenu:hover {
+  background-position: 0 100%;
+}
